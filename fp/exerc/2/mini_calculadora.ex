@@ -15,8 +15,11 @@ defmodule MiniCalculadora do
     entrada: {:multiplica, 2, 2}
     saída: 4
 
-    entrada: {:to_list, 33, 10}
+    entrada: {:subtrai, 33, 10}
     saída: 23
+
+    entrada: {:divide, 10, 2}
+    saída: 5
 
     entrada: {nil, 1, 7}
     saída: 'invalid'
